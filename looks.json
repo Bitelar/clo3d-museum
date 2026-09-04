@@ -8,7 +8,9 @@
       "technique": "CLO3D · Moda digital",
       "concept": "Pieza conceptual de prueba para la exposición WebAR.",
       "model": "models/look01.glb",
-      "scale": "1 1 1"
+      "iosModel": "",
+      "scale": "1 1 1",
+      "placement": "floor"
     },
     {
       "id": "02",
@@ -18,7 +20,9 @@
       "technique": "CLO3D · Moda digital",
       "concept": "Reemplaza este texto y agrega models/look02.glb.",
       "model": "models/look02.glb",
-      "scale": "1 1 1"
+      "iosModel": "",
+      "scale": "1 1 1",
+      "placement": "floor"
     },
     {
       "id": "03",
@@ -28,7 +32,9 @@
       "technique": "CLO3D · Moda digital",
       "concept": "Reemplaza este texto y agrega models/look03.glb.",
       "model": "models/look03.glb",
-      "scale": "1 1 1"
+      "iosModel": "",
+      "scale": "1 1 1",
+      "placement": "floor"
     }
   ]
 }
