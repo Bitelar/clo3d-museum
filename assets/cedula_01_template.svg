@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600">
+<rect width="1200" height="1600" fill="#f4f1e9"/>
+<text x="90" y="130" font-family="Arial" font-size="30" letter-spacing="6" fill="#333">DIGITAL FASHION EXHIBITION · 2026</text>
+<text x="90" y="340" font-family="Georgia" font-size="110" fill="#111">METAMORPHOSIS</text>
+<text x="90" y="425" font-family="Arial" font-size="42" fill="#222">Alumno 01</text>
+<line x1="90" y1="500" x2="1110" y2="500" stroke="#777"/>
+<text x="90" y="585" font-family="Arial" font-size="28" fill="#555">CLO3D · MODA DIGITAL</text>
+<text x="90" y="690" font-family="Arial" font-size="32" fill="#333">Escanea el QR para colocar la pieza</text>
+<text x="90" y="735" font-family="Arial" font-size="32" fill="#333">en realidad aumentada.</text>
+<rect x="90" y="870" width="520" height="520" fill="none" stroke="#111" stroke-width="4"/>
+<text x="350" y="1135" text-anchor="middle" font-family="Arial" font-size="34" fill="#555">QR AQUÍ</text>
+<text x="90" y="1490" font-family="Arial" font-size="24" fill="#777">PIEZA 01</text>
+</svg>

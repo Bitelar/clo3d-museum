@@ -1,0 +1,34 @@
+{
+  "looks": [
+    {
+      "id": "01",
+      "title": "METAMORPHOSIS",
+      "student": "Alumno 01",
+      "year": "2026",
+      "technique": "CLO3D · Moda digital",
+      "concept": "Pieza conceptual de prueba para la exposición WebAR.",
+      "model": "models/look01.glb",
+      "scale": "1 1 1"
+    },
+    {
+      "id": "02",
+      "title": "LOOK 02",
+      "student": "Alumno 02",
+      "year": "2026",
+      "technique": "CLO3D · Moda digital",
+      "concept": "Reemplaza este texto y agrega models/look02.glb.",
+      "model": "models/look02.glb",
+      "scale": "1 1 1"
+    },
+    {
+      "id": "03",
+      "title": "LOOK 03",
+      "student": "Alumno 03",
+      "year": "2026",
+      "technique": "CLO3D · Moda digital",
+      "concept": "Reemplaza este texto y agrega models/look03.glb.",
+      "model": "models/look03.glb",
+      "scale": "1 1 1"
+    }
+  ]
+}

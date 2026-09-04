@@ -1,0 +1,50 @@
+
+:root {
+  --bg: #0b0b0b;
+  --panel: #141414;
+  --text: #f3f1eb;
+  --muted: #aaa79f;
+  --line: #33322f;
+  --accent: #f3f1eb;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: Inter, Arial, sans-serif; }
+body { min-height: 100%; }
+.page { width: min(100%, 980px); margin: 0 auto; padding: 28px 18px 38px; }
+.museum-header { padding: 18px 0 28px; border-bottom: 1px solid var(--line); }
+.eyebrow { margin: 0 0 14px; font-size: 11px; letter-spacing: .18em; color: var(--muted); }
+h1 { margin: 0; font-family: Georgia, serif; font-weight: 400; font-size: clamp(54px, 12vw, 110px); line-height: .82; letter-spacing: -.055em; }
+.intro { max-width: 540px; margin: 22px 0 0; color: var(--muted); font-size: 15px; line-height: 1.5; }
+.artwork { padding-top: 22px; }
+.viewer-wrap { background: var(--panel); border: 1px solid var(--line); min-height: 520px; }
+model-viewer { width: 100%; height: 520px; background: radial-gradient(circle at 50% 42%, #242424, #101010 70%); }
+.ar-button {
+  border: 1px solid rgba(255,255,255,.35);
+  background: rgba(8,8,8,.88);
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: .12em;
+  padding: 14px 18px;
+  border-radius: 999px;
+  position: absolute;
+  left: 50%;
+  bottom: 18px;
+  transform: translateX(-50%);
+  min-width: 250px;
+}
+.loading { height: 100%; display: grid; place-items: center; color: var(--muted); font-size: 13px; letter-spacing: .08em; }
+.label { display: grid; grid-template-columns: 90px 1fr; gap: 22px; padding: 26px 0 30px; border-bottom: 1px solid var(--line); }
+.piece-number { font-family: Georgia, serif; font-size: 58px; line-height: 1; color: var(--muted); }
+h2 { margin: 0 0 6px; font-family: Georgia, serif; font-size: clamp(30px, 6vw, 52px); font-weight: 400; }
+.student { margin: 0 0 14px; font-size: 17px; }
+.meta { display: flex; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
+.concept { margin: 18px 0 0; max-width: 620px; color: var(--muted); line-height: 1.6; }
+.error { margin-top: 18px; padding: 14px; border: 1px solid #6e4545; background: #211515; color: #ffd8d8; }
+footer { display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; padding-top: 18px; color: var(--muted); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; }
+@media (max-width: 640px) {
+  .page { padding: 18px 14px 28px; }
+  .viewer-wrap, model-viewer { min-height: 430px; height: 430px; }
+  .label { grid-template-columns: 58px 1fr; gap: 14px; }
+  .piece-number { font-size: 40px; }
+  .ar-button { min-width: 230px; font-size: 11px; }
+}
