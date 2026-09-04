@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDisplayName</key>
+    <string>CLO3D Museum</string>
+    <key>NSCameraUsageDescription</key>
+    <string>La cámara se utiliza para escanear los códigos QR de la exposición y visualizar los diseños en realidad aumentada.</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>Permite guardar fotografías de los looks de la exposición en tu biblioteca.</string>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array><string>arkit</string></array>
+    <key>UISupportedInterfaceOrientations</key>
+    <array><string>UIInterfaceOrientationPortrait</string></array>
+</dict>
+</plist>
